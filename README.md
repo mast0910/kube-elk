@@ -1,4 +1,6 @@
 # Kubernetes cluster for Elastick Stack
+## Clone to folder
+git pull https://github.com/mast0910/kube-elk.git
 ## Usage
 1. Have kubernetes and minikube installed on computer
 2. Spin up elasticsearch using **kubectl apply -f elasticsearch.yaml**
