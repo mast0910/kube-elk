@@ -9,7 +9,7 @@ data:
     input { stdin { } }
     output {
       elasticsearch {
-        hosts => "localhost:9200"
+        hosts => "http://elasticsearch.default.svc.cluster.local:9200"
         index => "logstash-%{+YYYY.MM.dd}"
         sniffing => false
       }
